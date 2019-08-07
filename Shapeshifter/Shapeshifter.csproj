@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Booru.Net" Version="1.0.0.3" />
+    <PackageReference Include="Reddit" Version="1.2.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+    <PackageReference Include="Telegram.Bot" Version="14.12.0" />
+    <PackageReference Include="Xabe.FFmpeg" Version="3.4.0" />
+  </ItemGroup>
+
+</Project>

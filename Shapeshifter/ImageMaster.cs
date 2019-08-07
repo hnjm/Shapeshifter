@@ -45,7 +45,7 @@ namespace Shapeshifter
 
             Bot.StartReceiving(Array.Empty<UpdateType>());
             Console.WriteLine($"Start listening for @{me.Username}");
-            Console.ReadLine();
+            Thread.Sleep(Timeout.Infinite);
             Bot.StopReceiving();
             
         }
